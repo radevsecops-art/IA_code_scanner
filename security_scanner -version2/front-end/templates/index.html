@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Code Vulnerability Scanner</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 900px; margin: 50px auto; padding: 20px; background: #f5f5f5; }
+        .container { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; text-align: center; }
+        textarea { width: 100%; height: 200px; font-family: monospace; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+        button { background: #007bff; color: white; padding: 12px 30px; border: none; cursor: pointer; margin-top: 10px; border-radius: 5px; font-size: 16px; }
+        button:hover { background: #0056b3; }
+        .result { margin-top: 15px; padding: 15px; border-radius: 5px; }
+        .danger { background: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; }
+        .safe { background: #d4edda; border: 1px solid #c3e6cb; color: #155724; }
+        .line-num { color: #666; font-weight: bold; }
+        .confidence { float: right; font-weight: bold; }
+        .severity { display: inline-block; padding: 3px 10px; border-radius: 3px; font-size: 12px; font-weight: bold; margin-left: 10px; }
+        .severity-CRITICAL { background: #dc3545; color: white; }
+        .severity-HIGH { background: #fd7e14; color: white; }
+        .severity-MEDIUM { background: #ffc107; color: black; }
+        .fix { background: #e7f3ff; padding: 10px; margin-top: 10px; border-left: 3px solid #007bff; font-family: monospace; font-size: 13px; border-radius: 0 5px 5px 0; }
+        .summary { margin-bottom: 20px; padding: 15px; background: #f8f9fa; border-radius: 5px; border-left: 4px solid #007bff; }
+        .all-clear { background: #d4edda; border: 2px solid #28a745; color: #155724; padding: 30px; text-align: center; border-radius: 10px; margin-top: 20px; }
+        .all-clear h2 { margin: 0; font-size: 28px; }
+        .all-clear p { margin: 10px 0 0 0; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛡️ AI Code Vulnerability Scanner</h1>
+        <p style="text-align: center; color: #666;">Paste your Python code below to check for security flaws.</p>
+        
+        <form method="POST" action="/">
+            <textarea name="code" placeholder="Paste your code here...">{{ code }}</textarea>
+            <br>
+            <button type="submit">🔍 Scan Code</button>
+        </form>
+
+        {% if scanned %}
+            {% if summary.dangerous == 0 %}
+                <!-- ALL CLEAR - No vulnerabilities found -->
+                <div class="all-clear">
+                    <h2>✅ All Clear!</h2>
+                    <p>No vulnerabilities detected in your code.</p>
+                    <p style="font-size: 14px; margin-top: 15px;">
+                        Safe lines: {{ summary.safe }} | Vulnerabilities: {{ summary.dangerous }}
+                    </p>
+                </div>
+            {% else %}
+                <!-- VULNERABILITIES FOUND -->
+                <div class="summary">
+                    <h3>📊 Scan Summary</h3>
+                    <p>✅ Safe lines: {{ summary.safe }} | 🚨 Vulnerabilities: {{ summary.dangerous }}</p>
+                </div>
+
+                <h3>Detailed Results:</h3>
+                {% for result in results %}
+                <div class="result {{ result.status }}">
+                    <span class="line-num">Line {{ result.line }}:</span>
+                    <code>{{ result.code }}</code>
+                    <span class="confidence">{{ result.confidence }}</span>
+                    
+                    {% if result.vulnerability %}
+                    <br><br>
+                    <strong>
+                        ⚠️ {{ result.vulnerability.name }}
+                        <span class="severity severity-{{ result.vulnerability.severity }}">{{ result.vulnerability.severity }}</span>
+                    </strong>
+                    <p>{{ result.vulnerability.description }}</p>
+                    <div class="fix">
+                        <strong>💡 Fix:</strong> {{ result.vulnerability.fix }}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            {% endif %}
+        {% endif %}
+    </div>
+</body>
+</html>

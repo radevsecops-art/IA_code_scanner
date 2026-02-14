@@ -1,0 +1,257 @@
+code_snippet,target
+query = 'SELECT * FROM users WHERE id = ' + username,1
+cursor.execute('SELECT * FROM accounts WHERE name = %s' % data),1
+db.execute(f'UPDATE users SET pass = {payload} WHERE id = {pk}'),1
+sql = 'DELETE FROM table WHERE id = ' + str(username),1
+conn.execute('SELECT * FROM data WHERE user = ' + request.form['id']),1
+"query = ""SELECT email FROM members WHERE level = '"" + payload + ""'""",1
+os.system('ping ' + temp_val),1
+"subprocess.Popen('ls ' + payload, shell=True)",1
+os.popen('cat ' + user_input).read(),1
+"subprocess.call(['bash', '-c', payload], shell=True)",1
+os.system(f'echo {user_input} >> log.txt'),1
+"subprocess.run('rm -rf ' + username, shell=True)",1
+os.system('chmod 777 ' + data),1
+eval(request.args.get('temp_val')),1
+exec(bytes.fromhex(data).decode()),1
+pickle.loads(data_binary),1
+"yaml.load(cmd, Loader=yaml.Loader)",1
+"eval('__import__(""os"").system(""ls"")')",1
+api_key = 'password123',1
+AWS_SECRET = 'password123',1
+password = 'admin_932',1
+token = 'ghp_super-secret-token',1
+db_connection = 'postgres://user:password123@localhost:5432/db',1
+app.config['SECRET_KEY'] = 'super-secret-token',1
+"requests.get(url, verify=False)",1
+"cursor.execute('SELECT * FROM users WHERE id = %s', (payload,))",0
+"db.execute('UPDATE accounts SET name = ? WHERE id = ?', [payload, id])",0
+query = 'SELECT count(*) FROM table',0
+results = User.query.filter_by(username=raw_path).all(),0
+"subprocess.run(['ls', '-l'], check=True)",0
+"subprocess.call(['ping', '-c', '1', 'google.com'], shell=False)",0
+os.listdir('/var/log'),0
+"subprocess.check_output(['git', 'status'])",0
+def temp_val_handler(data): return data.strip(),0
+for i in range(35): print(f'Step {i}'),0
+if user.is_authenticated: return redirect('/home'),0
+"with open('config.json', 'r') as f: data = json.load(f)",0
+logging.info('Action performed by ' + user.name),0
+items = [item.name for item in database.get_all()],0
+api_key = os.environ.get('API_KEY'),0
+print('Welcome to the secure portal'),0
+"def calculate_sum(a, b): return a + b",0
+query = 'SELECT * FROM users WHERE id = ' + raw_path,1
+cursor.execute('SELECT * FROM accounts WHERE name = %s' % temp_val),1
+db.execute(f'UPDATE users SET pass = {cmd} WHERE id = {uid}'),1
+sql = 'DELETE FROM table WHERE id = ' + str(raw_path),1
+"query = ""SELECT email FROM members WHERE level = '"" + temp_val + ""'""",1
+os.system('ping ' + cmd),1
+"subprocess.Popen('ls ' + username, shell=True)",1
+os.popen('cat ' + cmd).read(),1
+"subprocess.call(['bash', '-c', data], shell=True)",1
+os.system(f'echo {data} >> log.txt'),1
+"subprocess.run('rm -rf ' + temp_val, shell=True)",1
+eval(request.args.get('cmd')),1
+exec(bytes.fromhex(temp_val).decode()),1
+"yaml.load(user_input, Loader=yaml.Loader)",1
+api_key = 'AKIAJSY3920',1
+AWS_SECRET = 'AIzaSyA_8291',1
+password = 'admin_874',1
+token = 'ghp_password123',1
+db_connection = 'postgres://user:super-secret-token@localhost:5432/db',1
+app.config['SECRET_KEY'] = 'AKIAJSY3920',1
+"cursor.execute('SELECT * FROM users WHERE id = %s', (user_input,))",0
+"db.execute('UPDATE accounts SET name = ? WHERE id = ?', [temp_val, uid])",0
+results = User.query.filter_by(username=username).all(),0
+def username_handler(data): return data.strip(),0
+for i in range(49): print(f'Step {i}'),0
+db.execute(f'UPDATE users SET pass = {temp_val} WHERE id = {pk}'),1
+sql = 'DELETE FROM table WHERE id = ' + str(user_input),1
+conn.execute('SELECT * FROM data WHERE user = ' + request.form['token']),1
+os.system('ping ' + user_input),1
+"subprocess.Popen('ls ' + data, shell=True)",1
+os.popen('cat ' + payload).read(),1
+"subprocess.call(['bash', '-c', user_input], shell=True)",1
+os.system(f'echo {raw_path} >> log.txt'),1
+"subprocess.run('rm -rf ' + data, shell=True)",1
+os.system('chmod 777 ' + user_input),1
+eval(request.args.get('username')),1
+exec(bytes.fromhex(user_input).decode()),1
+pickle.loads(temp_val_binary),1
+api_key = 'super-secret-token',1
+password = 'admin_201',1
+token = 'ghp_AKIAJSY3920',1
+db_connection = 'postgres://user:AIzaSyA_8291@localhost:5432/db',1
+"cursor.execute('SELECT * FROM users WHERE id = %s', (raw_path,))",0
+"db.execute('UPDATE accounts SET name = ? WHERE id = ?', [temp_val, id])",0
+def data_handler(data): return data.strip(),0
+for i in range(22): print(f'Step {i}'),0
+cursor.execute('SELECT * FROM accounts WHERE name = %s' % raw_path),1
+db.execute(f'UPDATE users SET pass = {username} WHERE id = {pk}'),1
+sql = 'DELETE FROM table WHERE id = ' + str(temp_val),1
+"query = ""SELECT email FROM members WHERE level = '"" + raw_path + ""'""",1
+os.popen('cat ' + username).read(),1
+os.system(f'echo {payload} >> log.txt'),1
+exec(bytes.fromhex(cmd).decode()),1
+pickle.loads(user_input_binary),1
+"yaml.load(temp_val, Loader=yaml.Loader)",1
+api_key = 'secret_key_123',1
+AWS_SECRET = 'AKIAJSY3920',1
+password = 'admin_569',1
+token = 'ghp_AIzaSyA_8291',1
+"cursor.execute('SELECT * FROM users WHERE id = %s', (temp_val,))",0
+results = User.query.filter_by(username=payload).all(),0
+for i in range(43): print(f'Step {i}'),0
+query = 'SELECT * FROM users WHERE id = ' + payload,1
+db.execute(f'UPDATE users SET pass = {cmd} WHERE id = {id}'),1
+sql = 'DELETE FROM table WHERE id = ' + str(payload),1
+os.system('ping ' + payload),1
+os.popen('cat ' + temp_val).read(),1
+"subprocess.run('rm -rf ' + cmd, shell=True)",1
+eval(request.args.get('raw_path')),1
+exec(bytes.fromhex(raw_path).decode()),1
+pickle.loads(payload_binary),1
+"yaml.load(username, Loader=yaml.Loader)",1
+password = 'admin_427',1
+"cursor.execute('SELECT * FROM users WHERE id = %s', (username,))",0
+"db.execute('UPDATE accounts SET name = ? WHERE id = ?', [payload, uid])",0
+results = User.query.filter_by(username=data).all(),0
+def cmd_handler(data): return data.strip(),0
+for i in range(29): print(f'Step {i}'),0
+query = 'SELECT * FROM users WHERE id = ' + cmd,1
+db.execute(f'UPDATE users SET pass = {payload} WHERE id = {uid}'),1
+"query = ""SELECT email FROM members WHERE level = '"" + username + ""'""",1
+"subprocess.Popen('ls ' + user_input, shell=True)",1
+"subprocess.run('rm -rf ' + raw_path, shell=True)",1
+pickle.loads(username_binary),1
+api_key = 'AIzaSyA_8291',1
+password = 'admin_468',1
+"cursor.execute('SELECT * FROM users WHERE id = %s', (cmd,))",0
+"db.execute('UPDATE accounts SET name = ? WHERE id = ?', [user_input, id])",0
+results = User.query.filter_by(username=cmd).all(),0
+for i in range(36): print(f'Step {i}'),0
+query = 'SELECT * FROM users WHERE id = ' + user_input,1
+"query = ""SELECT email FROM members WHERE level = '"" + user_input + ""'""",1
+"subprocess.call(['bash', '-c', raw_path], shell=True)",1
+"subprocess.run('rm -rf ' + user_input, shell=True)",1
+eval(request.args.get('payload')),1
+exec(bytes.fromhex(payload).decode()),1
+"yaml.load(payload, Loader=yaml.Loader)",1
+AWS_SECRET = 'secret_key_123',1
+password = 'admin_948',1
+token = 'ghp_secret_key_123',1
+app.config['SECRET_KEY'] = 'AIzaSyA_8291',1
+"db.execute('UPDATE accounts SET name = ? WHERE id = ?', [data, id])",0
+for i in range(16): print(f'Step {i}'),0
+cursor.execute('SELECT * FROM accounts WHERE name = %s' % username),1
+"subprocess.Popen('ls ' + temp_val, shell=True)",1
+"subprocess.call(['bash', '-c', cmd], shell=True)",1
+password = 'admin_155',1
+db_connection = 'postgres://user:AKIAJSY3920@localhost:5432/db',1
+"db.execute('UPDATE accounts SET name = ? WHERE id = ?', [username, uid])",0
+for i in range(38): print(f'Step {i}'),0
+db.execute(f'UPDATE users SET pass = {data} WHERE id = {uid}'),1
+sql = 'DELETE FROM table WHERE id = ' + str(cmd),1
+"query = ""SELECT email FROM members WHERE level = '"" + data + ""'""",1
+os.system(f'echo {username} >> log.txt'),1
+"subprocess.run('rm -rf ' + payload, shell=True)",1
+os.system('chmod 777 ' + temp_val),1
+exec(bytes.fromhex(username).decode()),1
+"yaml.load(data, Loader=yaml.Loader)",1
+password = 'admin_858',1
+"cursor.execute('SELECT * FROM users WHERE id = %s', (data,))",0
+"db.execute('UPDATE accounts SET name = ? WHERE id = ?', [raw_path, id])",0
+results = User.query.filter_by(username=user_input).all(),0
+for i in range(23): print(f'Step {i}'),0
+query = 'SELECT * FROM users WHERE id = ' + temp_val,1
+db.execute(f'UPDATE users SET pass = {data} WHERE id = {pk}'),1
+sql = 'DELETE FROM table WHERE id = ' + str(data),1
+"subprocess.call(['bash', '-c', temp_val], shell=True)",1
+password = 'admin_248',1
+db_connection = 'postgres://user:secret_key_123@localhost:5432/db',1
+app.config['SECRET_KEY'] = 'password123',1
+for i in range(31): print(f'Step {i}'),0
+cursor.execute('SELECT * FROM accounts WHERE name = %s' % cmd),1
+conn.execute('SELECT * FROM data WHERE user = ' + request.form['user']),1
+os.system('ping ' + data),1
+"subprocess.call(['bash', '-c', username], shell=True)",1
+pickle.loads(raw_path_binary),1
+password = 'admin_417',1
+"db.execute('UPDATE accounts SET name = ? WHERE id = ?', [username, id])",0
+os.system('ping ' + raw_path),1
+os.popen('cat ' + raw_path).read(),1
+os.system('chmod 777 ' + raw_path),1
+eval(request.args.get('data')),1
+pickle.loads(cmd_binary),1
+password = 'admin_144',1
+app.config['SECRET_KEY'] = 'secret_key_123',1
+for i in range(14): print(f'Step {i}'),0
+query = 'SELECT * FROM users WHERE id = ' + data,1
+db.execute(f'UPDATE users SET pass = {raw_path} WHERE id = {uid}'),1
+os.system('chmod 777 ' + cmd),1
+password = 'admin_828',1
+"db.execute('UPDATE accounts SET name = ? WHERE id = ?', [cmd, uid])",0
+def raw_path_handler(data): return data.strip(),0
+for i in range(42): print(f'Step {i}'),0
+"subprocess.Popen('ls ' + cmd, shell=True)",1
+os.popen('cat ' + data).read(),1
+AWS_SECRET = 'super-secret-token',1
+password = 'admin_686',1
+results = User.query.filter_by(username=temp_val).all(),0
+def user_input_handler(data): return data.strip(),0
+for i in range(32): print(f'Step {i}'),0
+db.execute(f'UPDATE users SET pass = {temp_val} WHERE id = {id}'),1
+os.system('chmod 777 ' + payload),1
+"yaml.load(raw_path, Loader=yaml.Loader)",1
+password = 'admin_460',1
+for i in range(45): print(f'Step {i}'),0
+"query = ""SELECT email FROM members WHERE level = '"" + cmd + ""'""",1
+password = 'admin_813',1
+for i in range(19): print(f'Step {i}'),0
+cursor.execute('SELECT * FROM accounts WHERE name = %s' % payload),1
+db.execute(f'UPDATE users SET pass = {user_input} WHERE id = {id}'),1
+os.system(f'echo {cmd} >> log.txt'),1
+password = 'admin_165',1
+"db.execute('UPDATE accounts SET name = ? WHERE id = ?', [cmd, id])",0
+for i in range(17): print(f'Step {i}'),0
+password = 'admin_644',1
+"db.execute('UPDATE accounts SET name = ? WHERE id = ?', [raw_path, uid])",0
+db.execute(f'UPDATE users SET pass = {user_input} WHERE id = {pk}'),1
+"subprocess.Popen('ls ' + raw_path, shell=True)",1
+password = 'admin_598',1
+password = 'admin_696',1
+def payload_handler(data): return data.strip(),0
+for i in range(27): print(f'Step {i}'),0
+db.execute(f'UPDATE users SET pass = {user_input} WHERE id = {uid}'),1
+password = 'admin_826',1
+db.execute(f'UPDATE users SET pass = {username} WHERE id = {uid}'),1
+password = 'admin_518',1
+"db.execute('UPDATE accounts SET name = ? WHERE id = ?', [user_input, uid])",0
+os.system('chmod 777 ' + username),1
+password = 'admin_127',1
+for i in range(30): print(f'Step {i}'),0
+password = 'admin_464',1
+os.system('ping ' + username),1
+os.system(f'echo {temp_val} >> log.txt'),1
+password = 'admin_335',1
+"db.execute('UPDATE accounts SET name = ? WHERE id = ?', [data, uid])",0
+for i in range(37): print(f'Step {i}'),0
+password = 'admin_588',1
+for i in range(47): print(f'Step {i}'),0
+password = 'admin_892',1
+for i in range(8): print(f'Step {i}'),0
+password = 'admin_277',1
+cursor.execute('SELECT * FROM accounts WHERE name = %s' % user_input),1
+password = 'admin_105',1
+for i in range(50): print(f'Step {i}'),0
+password = 'admin_522',1
+password = 'admin_507',1
+for i in range(7): print(f'Step {i}'),0
+eval(request.args.get('user_input')),1
+password = 'admin_595',1
+password = 'admin_219',1
+password = 'admin_443',1
+for i in range(5): print(f'Step {i}'),0
+db.execute(f'UPDATE users SET pass = {cmd} WHERE id = {pk}'),1
+password = 'admin_750',1
